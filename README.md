@@ -1,9 +1,6 @@
 # Getting Started
-
-👋 Hi, I’m @CHRIS922-CODER - 👀 I’m interested in learning how to problem solve using code.
-
-```markdown
-```typescript
+👋 Hi, I’m christopher omosa - 👀 
+```
 class Portfolio {
   public name: string = 'Christopher Omosa';
   public location: string = 'Nairobi Kenya';
@@ -11,9 +8,6 @@ class Portfolio {
   public experience: string = '2+ years';
   public hobbies: string[] = ['music', 'reading', 'gaming'];
 }
-```
-
-```typescript
 class Skills {
   public languages: string[] = ['javascript', 'react-native', 'python', 'SQL'];
   public operationSystems: string[] = ['linux', 'Unix'];
@@ -23,9 +17,6 @@ class Skills {
   public approaches: string[] = ['object oriented', 'asyncio'];
   public ongoing: string[] = ['shell scripting'];
 }
-```
-
-```typescript
 class Social {
   public github: string = 'https://www.github.com/chrispers632';
   public portfolio: string = 'http://christopheromosaportfolio-qdynmxgks-chris922-coders-projects.vercel.app/';
