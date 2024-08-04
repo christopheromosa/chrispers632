@@ -1,73 +1,38 @@
-Here's the content formatted into a `README.md` file:
-
-```markdown
 # Getting Started
 
 👋 Hi, I’m @CHRIS922-CODER - 👀 I’m interested in learning how to problem solve using code.
 
+```markdown
 ## Portfolio
 
 ```typescript
-interface Portfolio {
-  name: string;
-  location: string;
-  profile: string;
-  experience: string;
-  hobbies: string[];
-}
-
-class PortfolioImpl implements Portfolio {
-  readonly name = 'Christopher Omosa';
-  readonly location = 'Nairobi Kenya';
-  readonly profile = 'REACT-NEXT JS || EXPRESS-NEST JS || PYTHON-DJANGO-FLASK';
-  readonly experience = '2+ years';
-  readonly hobbies = ['music', 'reading', 'gaming'];
+class Portfolio {
+  public name: string = 'Christopher Omosa';
+  public location: string = 'Nairobi Kenya';
+  public profile: string = 'REACT-NEXT JS || EXPRESS-NEST JS || PYTHON-DJANGO-FLASK';
+  public experience: string = '2+ years';
+  public hobbies: string[] = ['music', 'reading', 'gaming'];
 }
 ```
-
 ## Skills
-
 ```typescript
-interface Skills {
-  languages: string[];
-  operationSystems: string[];
-  testFrameworks: string[];
-  webFrameworks: string[];
-  codeQuality: string[];
-  devops: string[];
-  versionControl: string[];
-  approaches: string[];
-  ongoing: string[];
-}
-
-class SkillsImpl implements Skills {
-  readonly languages = ['javascript', 'react-native', 'python', 'SQL'];
-  readonly operationSystems = ['linux', 'Unix'];
-  readonly webFrameworks = ['React js', 'Next js', 'Nest js', 'django rest-framework'];
-  readonly devops = ['docker'];
-  readonly versionControl = ['git'];
-  readonly approaches = ['object oriented', 'asyncio'];
-  readonly ongoing = ['shell scripting'];
+class Skills {
+  public languages: string[] = ['javascript', 'react-native', 'python', 'SQL'];
+  public operationSystems: string[] = ['linux', 'Unix'];
+  public webFrameworks: string[] = ['React js', 'Next js', 'Nest js', 'django rest-framework'];
+  public devops: string[] = ['docker'];
+  public versionControl: string[] = ['git'];
+  public approaches: string[] = ['object oriented', 'asyncio'];
+  public ongoing: string[] = ['shell scripting'];
 }
 ```
-
 ## Social
-
 ```typescript
-interface Social {
-  github: string;
-  codewars: string;
-  twitter: string;
-  linkedin: string;
-  portfolio: string;
-  email: string;
-}
-
-class SocialImpl implements Social {
-  readonly github = 'https://www.github.com/chrispers632';
-  readonly portfolio = 'http://christopheromosaportfolio-qdynmxgks-chris922-coders-projects.vercel.app/';
-  readonly linkedin = 'www.linkedin.com/in/christopher-omosa-junior-dev-788757219';
-  readonly email = 'christopheromosa632@gmail.com';
-  readonly codewars = 'https://www.codewars.com/users/CHRIS922-CODER';
+class Social {
+  public github: string = 'https://www.github.com/chrispers632';
+  public portfolio: string = 'http://christopheromosaportfolio-qdynmxgks-chris922-coders-projects.vercel.app/';
+  public linkedin: string = 'www.linkedin.com/in/christopher-omosa-junior-dev-788757219';
+  public email: string = 'christopheromosa632@gmail.com';
+  public codewars: string = 'https://www.codewars.com/users/CHRIS922-CODER';
 }
 ```
