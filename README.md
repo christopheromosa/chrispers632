@@ -18,7 +18,7 @@ class Skills {
   public ongoing: string[] = ['shell scripting'];
 }
 class Social {
-  public github: string = 'https://www.github.com/chrispers632';
+  public github: string = 'https://github.com/CHRIS922-CODER/chrispers632';
   public portfolio: string = 'http://christopheromosaportfolio-qdynmxgks-chris922-coders-projects.vercel.app/';
   public linkedin: string = 'www.linkedin.com/in/christopher-omosa-junior-dev-788757219';
   public email: string = 'christopheromosa632@gmail.com';
