@@ -1,4 +1,4 @@
-# About chrispers
+# Intro
 👋 Hi, I’m christopher omosa - 👀 
 ```
 class Portfolio {
