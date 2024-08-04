@@ -3,8 +3,6 @@
 👋 Hi, I’m @CHRIS922-CODER - 👀 I’m interested in learning how to problem solve using code.
 
 ```markdown
-## Portfolio
-
 ```typescript
 class Portfolio {
   public name: string = 'Christopher Omosa';
@@ -14,7 +12,7 @@ class Portfolio {
   public hobbies: string[] = ['music', 'reading', 'gaming'];
 }
 ```
-## Skills
+
 ```typescript
 class Skills {
   public languages: string[] = ['javascript', 'react-native', 'python', 'SQL'];
@@ -26,7 +24,7 @@ class Skills {
   public ongoing: string[] = ['shell scripting'];
 }
 ```
-## Social
+
 ```typescript
 class Social {
   public github: string = 'https://www.github.com/chrispers632';
